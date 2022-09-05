@@ -32,7 +32,7 @@ header p {
 section.normal {
     
     
-    background-color: lightgray;
+    
     padding-bottom:9vh ;
     box-shadow: inset 2px 2px 13px 0px rgb(0, 0, 0) ;
 }
@@ -66,30 +66,28 @@ section.imagem p {
 
 }
 
+section#img01 p {
+    color: white;
+}
+
 section#img01 {
-    background-image: url(background001.jpg);
+    background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
     background-attachment:fixed ;
     background-repeat: no-repeat;
-
-}
-
-section#img01 p {
-background-color: ;
-color: white;
-
 }
 
 section#img02 {
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     color: white;
-    background-image: url(background002.jpg);
+    background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-size: cover;
     background-attachment:fixed ;
     background-repeat: no-repeat;
 }
+
 footer { 
 
     color: white;
