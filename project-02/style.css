@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {
+    margin:0px;
+    padding: 0px;
+    min-height: 100%;
+}
+main {
+    font-family:cursive;
+}
+
+header {
+background-color: black;
+color: white;
+margin:0px;
+
+text-align:center;
+}
+
+header h1 {
+font-size: 3em;
+margin-top:0px;
+padding-top: 50px;
+}
+
+header p {
+    font-size: 19px;
+    padding-bottom: 29px;
+    margin-bottom: 0px;
+    
+}
+
+section.normal {
+    
+    
+    background-color: lightgray;
+    padding-bottom:9vh ;
+    box-shadow: inset 2px 2px 13px 0px rgb(0, 0, 0) ;
+}
+
+
+section.normal p {
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-top:9vh ;
+    padding-right: 20px;
+    padding-bottom:9vh ;
+    font-size: 26px;
+    font-style: italic;
+    
+    
+}
+
+section.imagem p {
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 26px;
+    font-style: italic;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.254);
+        
+
+}
+
+section#img01 {
+    background-image: url(background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-repeat: no-repeat;
+
+}
+
+section#img01 p {
+background-color: ;
+color: white;
+
+}
+
+section#img02 {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color: white;
+    background-image: url(background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-repeat: no-repeat;
+}
+footer { 
+
+    color: white;
+    font-style: italic;
+    font-size: bolder;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+}
