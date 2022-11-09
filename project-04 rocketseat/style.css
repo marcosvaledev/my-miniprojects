@@ -1,0 +1,79 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+.container{
+padding: 10px;
+height: 100vh;
+display:flex;
+font-family: 'Merriweather Sans', sans-serif;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+background-color: #3b3947;
+}
+article{
+background-color:#535061;
+color: white;
+}
+.sidebar {
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 10px;
+}
+.profile {
+padding: 10px;
+border: 2px solid red;
+width:319px;
+height:282px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 
+}
+
+.img-profile {
+border-radius: 70px;
+width: 128px;
+height: 128px;
+}
+.text-profile{
+font-size: 23px;
+}
+.function-profile{
+font-size: 13px;
+}
+
+.informations{
+width:319px;
+height: 282px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.technology{
+width:319px;
+height: 282px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+}
+.itens-technology{
+padding-left: 10px;
+}
+
+
+
+
+
+
+
+
