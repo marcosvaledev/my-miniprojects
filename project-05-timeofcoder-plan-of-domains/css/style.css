@@ -1,0 +1,288 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    
+}
+.block{
+    display:block;
+}
+/*sdsdsads*/
+/*cabeçalho do site*/
+
+header{
+    display: flex;
+    width:100%;
+    height:100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color:white;
+}
+#img-header{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: auto;
+    height: 70px;
+    padding: 5px;
+    margin-left: 7px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.btn-header{
+    font-size: 14px;
+    padding: 13px 10px;
+    border-radius:10px;
+}
+.btn-entrar{
+    background-color: rgb(41, 218, 41);
+    margin-right:20px;
+}
+/*Logo HDC amostra*/
+#HDC-home{
+    background-image: url(..//img/mainbanner.png);
+    background-size:cover;
+    height: 1000px;
+}
+#HDC-title{
+    text-align: center;
+    position: relative;
+    top:50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+}
+#HDC-title > .title,.text-title {
+    color: white;
+    text-shadow: 3px 3px 3px #333;
+}
+/*part of informations benefits*/
+#HDC-information{
+    display:flex;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.information{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.information p {
+    width: 350px;
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: larger;
+}
+/*icons information*/
+.fas  {
+   font-size: 90px;
+   padding-bottom: 0.1em;
+}
+.fa-shield-halved{
+    color: rgb(142, 253, 91);
+    
+}
+.fa-rocket{
+    color: red;
+}
+.fa-comments{
+    color: orange;
+}
+/*part of The prices and plans*/
+
+.title-content > h1 ,p {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.title-content h1{
+    font-size: 48px;
+    font-weight: 200;
+}
+.title-content p{
+    font-size: 30px;
+    font-weight: bold;
+}
+/*part of the plans*/
+#pricing-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    
+}
+
+.plan  {
+    flex: 1;
+    max-width: 250px;
+    
+}
+.plan ul {
+    padding: 10px;
+    text-align: center;
+}
+.plan li{
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(224, 224, 224);
+    list-style: none;
+    border-radius: 5%;
+}
+.plan .price{
+    background-color: rgb(85, 228, 85);
+    color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 53px -23px;
+    list-style:none;
+    padding-top: 30px;
+    position: relative;
+}
+.plan .basic{
+    background-color: #333;
+    padding:13px 0px 7px 0px;
+    color: white;
+    height: 80px;
+    padding-top:30px ;
+}
+.plan .saiba{
+    background-color: rgb(85, 228, 85);
+    color: white;
+}
+/* part of the Domains */
+#domain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    background-color: rgb(22, 45, 63);
+    margin: auto;
+    text-align: center;
+}
+.text-domain{
+   padding-bottom: 30px;
+}
+.text-domain > h1{
+    color: white;
+ line-height: 1em;
+    font-size: 60px;
+}
+.text-domain > h3{
+    padding-top:30px;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.content-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 15px 0;
+}
+
+#btn-domain{
+    height:70px ;
+    width:900px ;
+    border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 2px;
+}
+input::placeholder{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.submit{
+    font-size: 25px;
+    font-weight:400;
+    color: white;
+    height:70px;
+    width:460px;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(10, 145, 10);
+}
+
+.submit:hover{
+    background-color:rgb(85, 228, 85);
+}
+
+
+.footer{
+    margin: auto;
+    background-color:#ccc;
+}
+#form-contact{
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-contact{
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 410px;
+    border: 0.2em;
+    border-radius: 10px;
+    border: 1px solid rgb(107, 107, 107);
+
+}
+.contact-textarea{
+    border: 0.1em;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(107, 107, 107);
+}
+.footer-h1{
+    padding-top:50px;
+    text-align: center;
+    font-size:30px ;
+}
+.footer-p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size:21px;
+    font-weight: 500;
+    color: #333;
+
+}
+
+.submit-footer{
+    display: block;
+    margin: 40px auto;
+    font-size: 17px;
+    height:40px ;
+    width: 150px;
+    background-color: rgb(85, 228, 85);
+    font-size:19px ;
+    font-weight: 100;
+    border: 0.1em;
+}
+
+
