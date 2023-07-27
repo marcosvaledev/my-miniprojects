@@ -5,7 +5,7 @@ body {
     min-height: 100%;
 }
 main {
-    font-family:cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -17,6 +17,7 @@ text-align:center;
 }
 
 header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 3em;
 margin-top:0px;
 padding-top: 50px;
